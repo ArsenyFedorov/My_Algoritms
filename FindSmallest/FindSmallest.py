@@ -9,8 +9,7 @@ def sel_sort(row):
         row[i], row[m] = row[m], row[i]
  
  
-arr = [randint(1, 99) for item in range(N)]
+arr = [randint(1, 99) for item in range(10)]
 print(arr)
- 
 sel_sort(arr)
 print(arr)
