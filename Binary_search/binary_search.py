@@ -13,7 +13,7 @@ def binare_search (list,item):
             nigh = mid + 1
     return "тут такого нет ("
 
-my_list = [1,2,3,4,5,6,7,8,9]
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-print (binare_search(my_list,5)) # => 4
-print (binare_search(my_list,-1)) # => "тут такого нет ("
+print(binare_search(my_list, 5)) # => 4
+print(binare_search(my_list, -1)) # => "тут такого нет ("
